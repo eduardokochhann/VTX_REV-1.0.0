@@ -7,25 +7,32 @@
     width: 100%;    
 }
 
+/*Geral Head + Body*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Quem somos*/
 .vtx-socios-g {
 	display: inline-block;
-	width: 39.33%;
-    margin-left: -25px;
-	
+	width: 40.33%;
+    margin-left: -25px;	
 }
 
 .vtx-socios-dv1 {
 	background: #FF2B39; 
 	width: 100%; 
-	height: auto; 
+	height: 15%; 
 	margin-bottom: 4px;
 }
 
 .vtx-socios-dv2{
 	background: #091F37;
 	width: 100%; 
-	height: auto; 
-	font-size: 6px; 
+	height: 80%; 
+	font-size: 8px; 
 	text-align: center;
 }
 
@@ -43,3 +50,39 @@
 .vtx-socios-dv2 strong {
     font-size: 24px;
 }
+
+.vtx-pilares-g
+
+
+.vtx-container-pl {
+    background-image: url('caminho_para_sua_imagem.jpg');
+    background-size: cover;
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 999;
+    max-width: 80%;
+  }
+
+.vtx-btn-pl {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }  

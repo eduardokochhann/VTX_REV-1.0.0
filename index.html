@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/vtx.css" type="text/css">
+    
 
     <title>VTX Group</title>
   </head>
@@ -47,7 +48,7 @@
             empreendedores a transformar suas <br>
             ideias em realidade.</p>
         <!-- Sócio -->
-        <div class="vtx-temp row" style="color: snow; margin-left: 18px;">
+        <div class="vtx-temp row" style="color: snow; margin-left: 12px;">
             <!-- JK -->
             <div class="col-sm-4 vtx-socios-g">
                 <div class="vtx-socios-dv1">
@@ -65,8 +66,8 @@
                     <img src="" alt="FB">
                 </div>
                 <div class="vtx-socios-dv2">
-                    <Label><strong>Fellippe</strong><br><small style="margin-left: -41px;">Bastos</small></Label>
-                    <p>Com mais de 20 anos de experiência, nosso primeiro sócio utiliza sua expertise em tecnologia para desenvolver soluções digitais eficientes e otimizadas para o modelo de operação da sua empresa. Desde um sofisticado e intuitivo ERP, até suas APIs e extensões.</p>
+                    <Label><strong>Fellippe</strong><br><small style="margin-left: -43px;">Bastos</small></Label>
+                    <p>Nosso segundo sócio, especialista em marketing e design para módias digitais, é responsável por criar layouts conceituais que incorporam a identidade visual e de comunicação do seu negócio com objetivo de criar conexão entre a sua empresa e o público alvo.</p>
                 </div>
             </div>
             <!-- /FB -->
@@ -76,16 +77,44 @@
                     <img src="" alt="EK">
                 </div>
                 <div class="vtx-socios-dv2">
-                    <Label><strong>Eduardo</strong><br><small style="margin-left: -41px;">Kochhann</small></Label>
-                    <p>Com mais de 20 anos de experiência, nosso primeiro sócio utiliza sua expertise em tecnologia para desenvolver soluções digitais eficientes e otimizadas para o modelo de operação da sua empresa. Desde um sofisticado e intuitivo ERP, até suas APIs e extensões.</p>
+                    <Label><strong>Eduardo</strong><br><small style="margin-left: -46px;">Kochhann</small></Label>
+                    <p>Nosso terceiro sócio, usa sua vasta experiência para ajudar empreendedores a superar desafios e alcançar seus objetivos no mundo corporativo. Gestor de projetos Sênior, Eduardo é especialista em criar fluxos seguros de trabalho e otimizar operações.</p>
                 </div>
             </div>
             <!-- /EK -->
         </div>
-      </div>
+        <!-- Pilares --> 
+        <div class="vtx-pilares-g">       
+            <div class="vtx-container-pl">
+                <button class="vtx-btn-pl" onclick="openPopup('Visao')">Visão</button>
+                <button class="vtx-btn-pl" onclick="openPopup('Missao')">Missão</button>
+                <button class="vtx-btn-pl" onclick="openPopup('Etica')">Ética</button>
+            </div>
+            
+            <div id="popupVisao" class="popup">
+                <h2>Visão</h2>
+                <p>Texto relacionado à visão.</p>
+                <button onclick="closePopup('popupVisao')">Fechar</button>
+            </div>
+            
+            <div id="popupMissao" class="popup">
+                <h2>Missão</h2>
+                <p>Texto relacionado à missão.</p>
+                <button onclick="closePopup('popupMissao')">Fechar</button>
+            </div>
+            
+            <div id="popupEtica" class="popup">
+                <h2>Ética</h2>
+                <p>Texto relacionado à ética.</p>
+                <button onclick="closePopup('popupEtica')">Fechar</button>
+            </div>
+        </div>                   
 <!-- /INIT -->
     </div>
+
 <!-- SCRIPTs -->
+    <script src="JS/vtx.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
