@@ -78,11 +78,13 @@ body {
   }
 
 .vtx-btn-pl {
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #007bff;
+    font-size: 12px;
+    padding: 5px 30px;
+    margin: 0 3px;
+    margin-bottom: -140px;
+    background-color: #FF2B39;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 1px;
     cursor: pointer;
   }  
