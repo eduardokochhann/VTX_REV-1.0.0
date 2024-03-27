@@ -6,3 +6,40 @@
     height: 100%;
     width: 100%;    
 }
+
+.vtx-socios-g {
+	display: inline-block;
+	width: 39.33%;
+    margin-left: -25px;
+	
+}
+
+.vtx-socios-dv1 {
+	background: #FF2B39; 
+	width: 100%; 
+	height: auto; 
+	margin-bottom: 4px;
+}
+
+.vtx-socios-dv2{
+	background: #091F37;
+	width: 100%; 
+	height: auto; 
+	font-size: 6px; 
+	text-align: center;
+}
+
+.vtx-socios-dv2 label small{
+	position: absolute; 
+	margin-top: -7px;
+    font-size: 11px;
+}
+
+.vtx-socios-dv2 p {
+    padding: 6px;
+    line-height: 1.15;
+}
+
+.vtx-socios-dv2 strong {
+    font-size: 24px;
+}
