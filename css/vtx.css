@@ -88,3 +88,20 @@ body {
     border-radius: 1px;
     cursor: pointer;
   }  
+
+/*=Serviços=*/
+.vtx-services-TTL {
+	background: #FF2B39;
+    color: snow;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.vtx-services-txt {
+	background: #091F37;
+    color: snow;
+    margin: 0;
+    margin-bottom: 8px;
+    padding-top: 13px;
+}
