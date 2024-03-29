@@ -105,3 +105,22 @@ body {
     margin-bottom: 8px;
     padding-top: 13px;
 }
+
+.vtx-container-slc {
+    position: relative;
+    width: 100%;
+    background-color: #091F37;
+    color: snow;
+}
+.vtx-imagem-slc {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.vtx-texto-slc {
+    /*position: absolute;*/
+    top: 10%;
+    left: 5%;
+    color: snow;
+    background-color:#FF2B39;
+}
