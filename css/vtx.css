@@ -1,13 +1,17 @@
 /*Estilização padrão Vortex Group*/
 
 /*=Construção=*/
-.vtx-temp {border: 1px solid red;height: 100%;width: 100%;}
+/*.vtx-temp {border: 1px solid red;height: 100%;width: 100%;}
 
 /*Geral Head + Body*/
+@font-face {
+    font-family: 'Vortex Group';
+    src: url('fonts/azo-sans-regular.otf') format('opentype');
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
 .vtx-logo-header{
@@ -52,7 +56,7 @@ body {
 
 .vtx-imagem-slc {
     display: block;
-    margin-top: -75px;
+    margin-top: -88px;
     margin-left: 24px;
     width: 119%;
     height: auto;
@@ -79,7 +83,7 @@ body {
 
 .vtx-container-slc p {
     font-size: 11px;
-    padding: 20px 33px;
+    padding: 30px 33px;
     margin-top: 7px;
 }
 
@@ -91,6 +95,7 @@ body {
 
 .vtx-container-qms h4{
     font-size: 20px;
+    color: #091e37;
 }
 
 .vtx-container-qms p {
