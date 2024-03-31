@@ -25,15 +25,16 @@ body {
     text-align: center; 
     background-color: #091e37; 
     height: 5%;
-    width: 103%;
+    width: 105%;
 }
 
 /*=Problemas=*/
 .vtx-container-pc {
     margin-top: -20px;
+    margin-left: 20px;
 
     & .row {
-        width: 110%;
+        width: 114%;
         display: block;
         margin-bottom: 1px;
     }
@@ -56,7 +57,7 @@ body {
 
 .vtx-imagem-slc {
     display: block;
-    margin-top: -88px;
+    margin-top: -92px;
     margin-left: 24px;
     width: 119%;
     height: auto;
@@ -96,17 +97,20 @@ body {
 .vtx-container-qms h4{
     font-size: 20px;
     color: #091e37;
+    padding-left: 40px;
 }
 
 .vtx-container-qms p {
     line-height: 15px;
     font-size: 12px;
     margin: 10px;
+    padding-left: 40px;
 
 }
 
 .vtx-container-scs{
-    margin-left: 12px;
+    position: relative;
+    left: 32px;
     margin-top: 125px;
     color: snow;
 }
@@ -118,8 +122,8 @@ body {
 
 .vtx-socios-g {
 	display: inline-block;
-	width: 40.33%;
-    margin-left: -25px;	
+	width: 39.33%;
+    margin-left: -24px;	
 }
 
 .vtx-socios-dv1 {
@@ -131,23 +135,23 @@ body {
 }
 
 .vtx-socios-dv1 img {
-    top: -99px;
-    left: 0px;
+    top: -101px;
+    left: 8px;
     position: absolute;
     width: 111px;
 }
 
 #FB div label small{
-    margin-left: -45px;
+    margin-left: -43px;
 }
 
 #EK div img {
     width: 76px;
-    left: 18px;
+    left: 23px;
 }
 
 #EK div label small{
-    margin-left: -48px;
+    margin-left: -46px;
 }
 
 .vtx-socios-dv2{
@@ -167,7 +171,8 @@ body {
 .vtx-socios-dv2 p {
     padding: 2px;
     margin-bottom: 20px;
-    line-height: 1.15;
+    line-height: 1.15;    
+    margin-top: 10px;
 }
 
 .vtx-socios-dv2 strong {
@@ -190,6 +195,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    width: 105%;
+    padding-left: 13px;
   }
 
 .popup {
@@ -219,12 +226,16 @@ body {
   }  
 
 /*=Serviços=*/
+.vtx-video-services{
+    height: 11em;
+    width: 105%;
+}
 .vtx-container-services{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 18px;
 
 }
 
@@ -243,6 +254,7 @@ body {
     margin-bottom: 8px;
     padding-top: 13px;
     height: 40px;
+    padding-left: 0px;
 }
 
 
