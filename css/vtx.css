@@ -39,10 +39,10 @@ body {
         margin-bottom: 1px;
     }
 
-    & .vtx-imagem-pc img{
+    /*& .vtx-imagem-pc img{
         width: 100%;
         display: block;
-    }
+    }*/
 }
 
 .vtx-container-slc {
@@ -228,7 +228,7 @@ body {
 /*=Serviços=*/
 .vtx-video-services{
     height: 11em;
-    width: 105%;
+    /*width: 105%;*/
 }
 .vtx-container-services{
     width: 100%;
@@ -258,4 +258,69 @@ body {
 }
 
 
+/*====================================*/
+@media screen and (max-width: 768px) {
+    .vtx-container-pc {
+        display: contents;
+    }
+
+    .vtx-container-pc img {
+        width: 95%;
+    }
+
+    .vtx-imagem-slc {
+        margin-top: -97px;
+    }
+
+    .vtx-container-qms h4 {
+        padding-left: 5px;
+    }
+
+    .vtx-container-qms p {
+        padding-left: 0px;
+    }
+
+    .vtx-container-scs {
+        left: 14px;
+    }
+
+    .vtx-socios-dv1 img {
+        top: -102px;
+    }
+
+    .vtx-pilares-g {
+        /* width: 110%; */
+        height: auto;
+        margin-left: -33px;
+        margin-top: 35px;
+    }
+
+    .vtx-container-services {
+        width: 106%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: -10px;
+    }
+
+    .vtx-services-TTL {
+        background: #FF2B39;
+        color: snow;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 13px;
+        height: 55px;
+        margin-top: -10px;
+    }
+
+    .vtx-logo-header {
+        width: 38%;
+        height: auto;
+        margin-top: 18px;
+        margin-bottom: 15px;
+        margin-left: -30px;
+    }
+
+   
+}
 
