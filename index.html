@@ -12,100 +12,110 @@
 
     <title>VTX Group</title>
   </head>
-  <body>
-    <header class="vtx-header vtx-temp">
-        <img class="vtx-logo-header" src="img/Logo Vortex Horizontal.png" alt="Logo">
-    </header><br>
+<body>
     <div class="container">
-<!-- INIT -->
-    <!-- Sessão Problemas -->
-    <div class="vtx-container-pc">
-        <div class="row vtx-imagem-pc vtx-temp" alt="Problemas comuns 1">
-            <img src="img/Otimize seu tempo.png" alt="Otimize seu tempo empresarial">
+    <!-- Conteudo -->
+        <!-- Header -->
+        <div class="row">
+            <nav class="navbar navbar-dark">
+                <!-- Logo centralizada -->
+                <a class="navbar-brand" href="#">
+                  <img src="img/Logo Vortex Horizontal.png" alt="Logo">
+                </a>
+            </nav>
         </div>
-        <div class="row vtx-imagem-pc vtx-temp" alt="Problemas comuns 2">
-            <img src="img/Gesta╠âo segura.png" alt="Gestão segura">
+        <!-- /Header -->
+        <!-- Problemas -->
+        <div class="row vtx-problemas">
+            <img class="img-fluid-problemas" src="img/Otimize seu tempo.png" alt="Otimize seu tempo empresarial">
         </div>
-        <div class="row vtx-imagem-pc vtx-temp" alt="Problemas comuns 3">
-            <img src="img/Mostre sua marca.png" alt="mostre sua marca">
+        <div class="row">
+            <img class="img-fluid-problemas" src="img/Gesta╠âo segura.png" alt="Otimize seu tempo empresarial">
         </div>
-    </div>
-      <br>
-        <div class="vtx-temp vtx-container-slc">
-            <div class="vtx-texto-slc">
+        <div class="row">
+            <img class="img-fluid-problemas" src="img/Mostre sua marca.png" alt="Otimize seu tempo empresarial">
+        </div>
+        <div class="row vtx-problemas-oque">
+            <div class="vtx-problemas-titulo">
                 <h2>O que podemos fazer pela sua empresa</h2>
             </div>
             <p>Estamos com você pra sermos um braço forte na expansão austera, aumento da lucratividade e consolidação de sua marca no mercado, buscando também inovação e satisfação dos clientes.</p>
-            <img src="img/apresentacao.png" alt="apresentação de dashboard" class="vtx-imagem-slc">
+            <img src="img/apresentacao.png" alt="apresentação de dashboard" class="vtx-problemas-img">
         </div>
-    <!-- Sessão Quem somos -->
-      <div class=" vtx-temp vtx-container-qms" style="text-align: center;">
-        <h4><strong>Mas antes, </strong>quem somos nós?</h4>
-        <p>A Vortex Group é uma empresa formanda por três especialistas dedicados em ajudar empreendedores a transformar suas ideias em realidade.</p>
-        <!-- Sócio -->
-        <div class="vtx-temp vtx-container-scs row">
-            <!-- JK -->
-            <div class="col-sm-4 vtx-socios-g">
-                <div class="vtx-socios-dv1">
-                    <img src="" alt="JK">
-                </div>
-                <div class="vtx-socios-dv2">
-                    <Label><strong>Juliano</strong><br><small style="margin-left: -41px;">Kochhann</small></Label>
-                    <p>Com mais de 20 anos de experiência, nosso primeiro sócio utiliza sua expertise em tecnologia para desenvolver soluções digitais eficientes e otimizadas para o modelo de operação da sua empresa. Desde um sofisticado e intuitivo ERP, até suas APIs e extensões.</p>
-                </div>
-            </div>
-            <!-- /JK -->
-            <!-- FB -->
-            <div class="col-sm-4 vtx-socios-g" id="FB">
-                <div class="vtx-socios-dv1">
-                    <img src="img/Busto Fellippe.png" alt="FB">
-                </div>
-                <div class="vtx-socios-dv2">
-                    <Label><strong>Fellippe</strong><br><small>Bastos</small></Label>
-                    <p>Nosso segundo sócio, especialista em marketing e design para módias digitais, é responsável por criar layouts conceituais que incorporam a identidade visual e de comunicação do seu negócio com objetivo de criar conexão entre a sua empresa e o público alvo.</p>
-                </div>
-            </div>
-            <!-- /FB -->
-            <!-- EK -->
-            <div class="col-sm-4 vtx-socios-g" id="EK">
-                <div class="vtx-socios-dv1">
-                    <img src="img/Busto_Edu.png" alt="EK">
-                </div>
-                <div class="vtx-socios-dv2">
-                    <Label><strong>Eduardo</strong><br><small>Kochhann</small></Label>
-                    <p>Nosso terceiro sócio, usa sua vasta experiência para ajudar empreendedores a superar desafios e alcançar seus objetivos no mundo corporativo. Gestor de projetos Sênior, Eduardo é especialista em criar fluxos seguros de trabalho e otimizar operações.</p>
-                </div>
-            </div>
-            <!-- /EK -->
+        <!-- /Problemas -->
+        <!-- Quem somos -->
+        <div class="vtx-quemsomos">
+            <h4><strong>Mas antes, </strong>quem somos nós?</h4>
+            <p>A Vortex Group é uma empresa formanda por três especialistas dedicados em ajudar empreendedores a transformar suas ideias em realidade.</p>
         </div>
-        <!-- Pilares --> 
-        <div class="vtx-pilares-g">       
-            <div class="vtx-container-pl">
-                <button class="vtx-btn-pl" onclick="openPopup('Visao')">VISÃO</button>
-                <button class="vtx-btn-pl" onclick="openPopup('Missao')">MISSÃO</button>
-                <button class="vtx-btn-pl" onclick="openPopup('Etica')">ÉTICA</button>
+
+            <!-------- Sócios --------->
+            <div class="vtx-container-scs row">
+                <!-- JK -->
+                <div class="col-sm-4 vtx-socios-g" id="JK">
+                    <div class="vtx-socios-dv1">
+                        <img src="img/Busto_Juliano.png" alt="JK">
+                    </div>
+                    <div class="vtx-socios-dv2">
+                        <Label><strong>Juliano</strong><br><small style="margin-left: -41px;">Kochhann</small></Label>
+                        <p>Com mais de 20 anos de experiência, nosso primeiro sócio utiliza sua expertise em tecnologia para desenvolver soluções digitais eficientes e otimizadas para o modelo de operação da sua empresa. Desde um sofisticado e intuitivo ERP, até suas APIs e extensões.</p>
+                    </div>
+                </div>
+                <!-- /JK -->
+                <!-- FB -->
+                <div class="col-sm-4 vtx-socios-g" id="FB">
+                    <div class="vtx-socios-dv1">
+                        <img src="img/Busto Fellippe.png" alt="FB">
+                    </div>
+                    <div class="vtx-socios-dv2">
+                        <Label><strong>Fellippe</strong><br><small>Bastos</small></Label>
+                        <p>Nosso segundo sócio, especialista em marketing e design para módias digitais, é responsável por criar layouts conceituais que incorporam a identidade visual e de comunicação do seu negócio com objetivo de criar conexão entre a sua empresa e o público alvo.</p>
+                    </div>
+                </div>
+                <!-- /FB -->
+                <!-- EK -->
+                <div class="col-sm-4 vtx-socios-g" id="EK">
+                    <div class="vtx-socios-dv1">
+                        <img src="img/Busto_Edu.png" alt="EK">
+                    </div>
+                    <div class="vtx-socios-dv2">
+                        <Label><strong>Eduardo</strong><br><small>Kochhann</small></Label>
+                        <p>Nosso terceiro sócio, usa sua vasta experiência para ajudar empreendedores a superar desafios e alcançar seus objetivos no mundo corporativo. Gestor de projetos Sênior, Eduardo é especialista em criar fluxos seguros de trabalho e otimizar operações.</p>
+                    </div>
+                </div>
+                <!-- /EK -->
             </div>
-            
-            <div id="popupVisao" class="popup">
-                <h2>Visão</h2>
-                <p>Texto relacionado à visão.</p>
-                <button onclick="closePopup('popupVisao')">Fechar</button>
+            <!-------- /Sócios --------->
+            <!-------- Pilares --------->
+            <div class="vtx-pilares-g">       
+                <div class="vtx-container-pl">
+                    <button class="vtx-btn-pl" onclick="openPopup('Visao')">VISÃO</button>
+                    <button class="vtx-btn-pl" onclick="openPopup('Missao')">MISSÃO</button>
+                    <button class="vtx-btn-pl" onclick="openPopup('Etica')">ÉTICA</button>
+                </div>
+                
+                <div id="popupVisao" class="popup">
+                    <h2>Visão</h2>
+                    <p>Texto relacionado à visão.</p>
+                    <button onclick="closePopup('popupVisao')">Fechar</button>
+                </div>
+                
+                <div id="popupMissao" class="popup">
+                    <h2>Missão</h2>
+                    <p>Texto relacionado à missão.</p>
+                    <button onclick="closePopup('popupMissao')">Fechar</button>
+                </div>
+                
+                <div id="popupEtica" class="popup">
+                    <h2>Ética</h2>
+                    <p>Texto relacionado à ética.</p>
+                    <button onclick="closePopup('popupEtica')">Fechar</button>
+                </div>
             </div>
-            
-            <div id="popupMissao" class="popup">
-                <h2>Missão</h2>
-                <p>Texto relacionado à missão.</p>
-                <button onclick="closePopup('popupMissao')">Fechar</button>
-            </div>
-            
-            <div id="popupEtica" class="popup">
-                <h2>Ética</h2>
-                <p>Texto relacionado à ética.</p>
-                <button onclick="closePopup('popupEtica')">Fechar</button>
-            </div>
-        </div>
-    <!-- Sessão de serviços -->
-       <div class="vtx-temp">
+
+        <!-- /Quem somos -->
+        <!-- Serviços -->
+        <div class="vtx-temp">
             <div class="vtx-video-services">Vìdeo</div>
             <div class="vtx-container-services">
                 <h6 class="vtx-services-TTL">SOLUÇÕES PARA TECNOLOGIA DA INFORMAÇÃO</h6>
@@ -135,14 +145,15 @@
                     </div>
                 </div>
             </div>
-       </div>                   
-<!-- /INIT -->
-    </div>
+       </div>       
+        <!-- /Serviços -->
 
+    <!-- /Conteudo -->
+
+    </div>
 <!-- SCRIPTs -->
     <script src="JS/vtx.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>

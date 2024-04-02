@@ -1,326 +1,512 @@
-/*Estilização padrão Vortex Group*/
-
-/*=Construção=*/
-/*.vtx-temp {border: 1px solid red;height: 100%;width: 100%;}
-
-/*Geral Head + Body*/
+/*VTX*/
 @font-face {
     font-family: 'Vortex Group';
     src: url('fonts/azo-sans-regular.otf') format('opentype');
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
-.vtx-logo-header{
-    width: 45%; 
-    height: auto; 
-    margin-top: 18px; 
-    margin-bottom: 15px;
-}
+/*======Smartphones até 390px (Iphone 12pro)======*/
 
-.vtx-header{
-    text-align: center; 
-    background-color: #091e37; 
-    height: 5%;
-    width: 105%;
-}
-
-/*=Problemas=*/
-.vtx-container-pc {
-    margin-top: -20px;
-    margin-left: 20px;
-
-    & .row {
-        width: 114%;
+@media only screen and (max-width: 425px){
+    
+      
+/* NAV BAR */
+    
+    .navbar {
+        background-color: #091e37;
+        width: 100%;
+        height: 4em;
+    
+    }
+    .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
         display: block;
-        margin-bottom: 1px;
+    }
+    .navbar-brand img{
+        width: 5em;
+    }
+    a.navbar-brand {
+        margin-top: -5px;
     }
 
-    /*& .vtx-imagem-pc img{
+/* /NAV BAR */
+
+/* PROBLEMAS */
+    .img-fluid-problemas {
         width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 4px;
+    }
+    .vtx-problemas {
+        margin-top: 10px;
+    }
+    .vtx-problemas-oque {
+        position: relative;
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+        background-color: #091F37;
+        color: snow;
+    }
+    .vtx-problemas-oque img {
+        margin-top: 1px;
+    }
+    .vtx-problemas-titulo {
+        width: 20em;
+        height: 2em;
+        position: absolute;
+        top: -8%;
+        left: 14%;
+        color: snow;
+        background-color:#FF2B39;
+    }
+    .vtx-problemas-oque p{
+        font-size: 11px;
+        padding: 25px 21px 20px 50px;
+        margin-top: 7px;
+    }
+    .vtx-problemas-titulo h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px;        
+    }
+    img.vtx-problemas-img {
         display: block;
-    }*/
+        margin-top: -75px;
+        margin-left: 24px;
+        width: 112.9%;
+        height: auto;
+    }
+/* /PROBLEMAS */
+
+/* QUEM SOMOS */
+    .vtx-quemsomos {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .vtx-quemsomos h4{
+        font-size: 20px;
+        color: #091F37;
+        /*padding-left: 40px;*/
+    }
+
+    .vtx-quemsomos p {
+        line-height: 15px;
+        font-size: 13px;
+        margin: 10px;
+        /*padding-left: 40px;*/
+
+    }
+
+    /* SOCIOS */
+        
+        .vtx-container-scs{
+            position: relative;
+            /*left: 13px;*/
+            margin-top: 125px;
+            color: snow;
+        }
+
+        .vtx-container-scs div div p{
+            font-size: 8px;
+        }
+
+
+        .vtx-socios-g {
+            display: inline-block;
+            width: 38%;
+            margin-left: -28px;	
+            left: 24px;
+        }
+
+        .vtx-socios-dv1 {
+            position: relative;
+            background: #FF2B39; 
+            width: 100%; 
+            height: 10%; 
+            margin-bottom: 4px;
+        }
+
+        .vtx-socios-dv1 img {
+            top: -100.9px;
+            left: 3px;
+            position: absolute;
+            width: 111px;
+        }
+
+        #JK div img {
+            width: 82px;
+            left: 19px;
+
+        }
+
+        #FB div label small{
+            margin-left: -43px;
+        }
+
+        #EK div img {
+            width: 80px;
+            left: 19px;
+            top: -107px;
+        }
+
+        #EK div label small{
+            margin-left: -46px;
+        }
+
+        .vtx-socios-dv2{
+            background: #091F37;
+            width: 100%; 
+            height: 88%; 
+            font-size: 8px; 
+            text-align: center;
+        }
+
+        .vtx-socios-dv2 label small{
+            position: absolute; 
+            margin-top: -7px;
+            font-size: 11px;
+        }
+
+        .vtx-socios-dv2 p {
+            padding: 5px;
+            margin-bottom: 20px;
+            line-height: 1.15;    
+            margin-top: 10px;
+        }
+
+        .vtx-socios-dv2 strong {
+            font-size: 24px;
+        }
+
+    /* /SOCIOS */
+
+    /* PILARES */
+        .vtx-pilares-g {
+            margin-left: -15px;
+            margin-right: 4px;
+            margin-top: 20px;
+        }
+            
+        .vtx-container-pl {
+            background-image: url('../img/Homem-olhando.png');
+            background-size: cover;    
+            height: 12em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 105%;
+            /*padding-left: 11px;*/
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            z-index: 999;
+            max-width: 80%;
+        }
+
+        .vtx-btn-pl {
+            font-size: 12px;
+            padding: 0px 34px;
+            margin: 0 3px;
+            margin-bottom: -140px;
+            background-color: #FF2B39;
+            color: white;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+        }  
+    /* /PILARES */
+
+/* /QUEM SOMOS */
+
+/* SERVIÇOS */
+        .vtx-video-services{
+            background-color: black;
+            height: 7em;
+            /* width: 100%; */
+            margin-left: -15px;
+            margin-right: -15px;
+            color: snow;
+            text-align: center;
+            margin-bottom: -20px;
+            margin-top: 27px;
+        }
+        .vtx-container-services{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-top: 52px;
+            text-align: center;
+            /*margin-left: 18px;*/
+
+        }
+
+        .vtx-services-TTL {
+            background: #FF2B39;
+            color: snow;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 12px;
+        }
+
+        .vtx-services-txt p{
+            background: #091F37;
+            color: snow;
+            margin: 0;
+            margin-bottom: 5px;
+            padding-top: 8px;
+            height: 40px;
+            padding-left: 0px;
+        }
+
+/* /SERVIÇOS */
+
+
 }
 
-.vtx-container-slc {
-    position: relative;
-    width: 90%;
-    height: 15em;
-    margin-left: -15px;
+/*======Smartphones acima de 390px e tablets======*/
+
+@media only screen and (min-width: 426px) and (max-width:768px){
+   
+/* NAV BAR */
+        
+    .navbar {
+        background-color: #091e37;
+        width: 45em;
+        height: 8em;
+
+    }
+    .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .navbar-brand img{
+        width: 12em;
+    }
+    a.navbar-brand {
+        margin-top: 0px;
+    }
+
+/* NAV BAR */  
+
+/* PROBLEMAS */
+.img-fluid-problemas {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4px;
+}
+.vtx-problemas {
     margin-top: 10px;
+}
+.vtx-problemas-oque {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
     background-color: #091F37;
     color: snow;
 }
-
-.vtx-imagem-slc {
-    display: block;
-    margin-top: -92px;
-    margin-left: 24px;
-    width: 119%;
-    height: auto;
+.vtx-problemas-oque img {
+    margin-top: 1px;
 }
-
-.vtx-texto-slc {
-    width: 20em;
-    height: 2em;
+.vtx-problemas-titulo {
+    width: 35em;
+    height: 3em;
     position: absolute;
-    top: -8%;
-    left: 10%;
+    top: -6%;
+    left: 14%;
     color: snow;
     background-color:#FF2B39;
 }
-
-.vtx-texto-slc h2 {
+.vtx-problemas-oque p{
+    font-size: 17px;
+    padding: 42px 21px 20px 78px;
+    margin-top: 7px;
+}
+.vtx-problemas-titulo h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    padding: 5px;
+    padding: 10px;        
 }
-
-.vtx-container-slc p {
-    font-size: 11px;
-    padding: 30px 33px;
-    margin-top: 7px;
+img.vtx-problemas-img {
+    display: block;
+    margin-top: -115px;
+    margin-left: 43px;
+    width: 127%;
+    height: auto;
 }
+/* /PROBLEMAS */
 
-/*Quem somos*/
-.vtx-container-qms {
+/* QUEM SOMOS */
+.vtx-quemsomos {
     text-align: center;
     margin-top: 20px;
 }
 
-.vtx-container-qms h4{
-    font-size: 20px;
-    color: #091e37;
-    padding-left: 40px;
+.vtx-quemsomos h4{
+    font-size: 42px;
+    color: #091F37;
+    /*padding-left: 40px;*/
 }
 
-.vtx-container-qms p {
-    line-height: 15px;
-    font-size: 12px;
-    margin: 10px;
-    padding-left: 40px;
+.vtx-quemsomos p {
+    line-height: 24px;
+    font-size: 21px;
+    margin: 15px;
+    /*padding-left: 40px;*/
 
 }
 
-.vtx-container-scs{
-    position: relative;
-    left: 32px;
-    margin-top: 125px;
-    color: snow;
-}
+    /* SOCIOS */
+        
+        .vtx-container-scs{
+            position: relative;
+            /*left: 13px;*/
+            margin-top: 160px;
+            color: snow;
+        }
 
-.vtx-container-scs div div p{
-    font-size: 8px;
-}
+        .vtx-container-scs div div p{
+            font-size: 12px;
+        }
 
 
-.vtx-socios-g {
-	display: inline-block;
-	width: 39.33%;
-    margin-left: -24px;	
-}
+        .vtx-socios-g {
+            display: inline-block;
+            width: 38%;
+            margin-left: -28px;	
+            left: 50px;
+        }
 
-.vtx-socios-dv1 {
-    position: relative;
-	background: #FF2B39; 
-	width: 100%; 
-	height: 10%; 
-	margin-bottom: 4px;
-}
+        .vtx-socios-dv1 {
+            position: relative;
+            background: #FF2B39; 
+            width: 100%; 
+            height: 15%; 
+            margin-bottom: 4px;
+        }
 
-.vtx-socios-dv1 img {
-    top: -101px;
-    left: 8px;
-    position: absolute;
-    width: 111px;
-}
+        .vtx-socios-dv1 img {
+            top: -137px;
+            left: 29px;
+            position: absolute;
+            width: 160px;
+        }
 
-#FB div label small{
-    margin-left: -43px;
-}
+        #JK div img {
+            width: 118px;
+            left: 46px;
 
-#EK div img {
-    width: 76px;
-    left: 23px;
-}
+        }
 
-#EK div label small{
-    margin-left: -46px;
-}
+        #FB div label small{
+            margin-left: -43px;
+        }
 
-.vtx-socios-dv2{
-	background: #091F37;
-	width: 100%; 
-	height: 95%; 
-	font-size: 8px; 
-	text-align: center;
-}
+        #EK div img {
+            width: 113px;
+            left: 48px;
+            top: -142px;
+        }
 
-.vtx-socios-dv2 label small{
-	position: absolute; 
-	margin-top: -7px;
-    font-size: 11px;
-}
+        #EK div label small{
+            margin-left: -46px;
+        }
 
-.vtx-socios-dv2 p {
-    padding: 2px;
-    margin-bottom: 20px;
-    line-height: 1.15;    
-    margin-top: 10px;
-}
+        .vtx-socios-dv2{
+            background: #091F37;
+            width: 100%; 
+            height: 88%; 
+            font-size: 8px; 
+            text-align: center;
+        }
 
-.vtx-socios-dv2 strong {
-    font-size: 24px;
-}
+        .vtx-socios-dv2 label small{
+            position: absolute; 
+            margin-top: -7px;
+            font-size: 11px;
+        }
 
-.vtx-pilares-g {
-    width: 110%;
-    height: auto;
-    margin-left: -16px;
-    margin-top: 35px;
+        .vtx-socios-dv2 p {
+            padding: 14px;
+            margin-bottom: 20px;
+            line-height: 1.15;    
+            margin-top: 10px;
+        }
+
+        .vtx-socios-dv2 strong {
+            font-size: 24px;
+        }
+
+        /* /SOCIOS */
+        /* PILARES */
+        .vtx-pilares-g {
+            margin-left: -39px;
+            margin-right: -2px;
+            margin-top: 37px;
+        }
+            
+        .vtx-container-pl {
+            background-image: url('../img/Homem-olhando.png');
+            background-size: cover;    
+            height: 20em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 105%;
+            /*padding-left: 11px;*/
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            z-index: 999;
+            max-width: 80%;
+        }
+
+        .vtx-btn-pl {
+            font-size: 14px;
+            padding: 7px 78px;
+            margin: 0 3px;
+            margin-bottom: -255px;
+            background-color: #FF2B39;
+            color: white;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+        }  
+        /* /PILARES */
+
+/* /QUEM SOMOS */
     
 }
-
-.vtx-container-pl {
-    background-image: url('../img/Homem-olhando.png');
-    background-size: cover;    
-    height: 12em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    width: 105%;
-    padding-left: 13px;
-  }
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
-    z-index: 999;
-    max-width: 80%;
-  }
-
-.vtx-btn-pl {
-    font-size: 12px;
-    padding: 5px 30px;
-    margin: 0 3px;
-    margin-bottom: -140px;
-    background-color: #FF2B39;
-    color: white;
-    border: none;
-    border-radius: 1px;
-    cursor: pointer;
-  }  
-
-/*=Serviços=*/
-.vtx-video-services{
-    height: 11em;
-    /*width: 105%;*/
-}
-.vtx-container-services{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: 18px;
-
-}
-
-.vtx-services-TTL {
-	background: #FF2B39;
-    color: snow;
-    font-size: 15px;
-    font-weight: 600;
-    padding: 12px;
-}
-
-.vtx-services-txt p{
-	background: #091F37;
-    color: snow;
-    margin: 0;
-    margin-bottom: 8px;
-    padding-top: 13px;
-    height: 40px;
-    padding-left: 0px;
-}
-
-
-/*====================================*/
-@media screen and (max-width: 768px) {
-    .vtx-container-pc {
-        display: contents;
-    }
-
-    .vtx-container-pc img {
-        width: 95%;
-    }
-
-    .vtx-imagem-slc {
-        margin-top: -97px;
-    }
-
-    .vtx-container-qms h4 {
-        padding-left: 5px;
-    }
-
-    .vtx-container-qms p {
-        padding-left: 0px;
-    }
-
-    .vtx-container-scs {
-        left: 14px;
-    }
-
-    .vtx-socios-dv1 img {
-        top: -102px;
-    }
-
-    .vtx-pilares-g {
-        /* width: 110%; */
-        height: auto;
-        margin-left: -33px;
-        margin-top: 35px;
-    }
-
-    .vtx-container-services {
-        width: 106%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: -10px;
-    }
-
-    .vtx-services-TTL {
-        background: #FF2B39;
-        color: snow;
-        font-size: 15px;
-        font-weight: 600;
-        padding: 13px;
-        height: 55px;
-        margin-top: -10px;
-    }
-
-    .vtx-logo-header {
-        width: 38%;
-        height: auto;
-        margin-top: 18px;
-        margin-bottom: 15px;
-        margin-left: -30px;
-    }
-
-   
-}
-
