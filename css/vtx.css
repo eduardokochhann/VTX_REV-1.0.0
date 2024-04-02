@@ -9,6 +9,9 @@
 
 @media only screen and (max-width: 425px){
     
+/* Animações */
+
+
       
 /* NAV BAR */
     
@@ -111,17 +114,19 @@
             /*left: 13px;*/
             margin-top: 125px;
             color: snow;
+            margin-left: -24px;
+            padding-left: 14px;
         }
 
         .vtx-container-scs div div p{
-            font-size: 8px;
+            font-size: 7px;
         }
 
 
         .vtx-socios-g {
             display: inline-block;
             width: 38%;
-            margin-left: -28px;	
+            margin-left: -27px;	
             left: 24px;
         }
 
@@ -175,7 +180,7 @@
         }
 
         .vtx-socios-dv2 p {
-            padding: 5px;
+            padding: 7px;
             margin-bottom: 20px;
             line-height: 1.15;    
             margin-top: 10px;
@@ -278,6 +283,23 @@
 
 /* /SERVIÇOS */
 
+/* FOOTER */
+        .pt-4 {
+            padding-top: 1.5rem !important;
+            margin-bottom: -35px !important;
+        }
+        .p-3 {
+            padding: 1rem !important;
+            margin: -15px !important;
+            background-color: #091e37;
+            color: #FF2B39;
+        }
+        .p-3 a {
+            color: #FF2B39 !important;
+        }
+
+
+/* /FOOTER */
 
 }
 
