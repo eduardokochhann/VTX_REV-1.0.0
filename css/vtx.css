@@ -530,5 +530,66 @@ img.vtx-problemas-img {
         /* /PILARES */
 
 /* /QUEM SOMOS */
+        /* SERVIÇOS */
+        .vtx-video-services{
+            background-color: black;
+            height: 7em;
+            /* width: 100%; */
+            margin-left: -15px;
+            margin-right: -15px;
+            color: snow;
+            text-align: center;
+            margin-bottom: -20px;
+            margin-top: 27px;
+        }
+        .vtx-container-services{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-top: 52px;
+            text-align: center;
+            /*margin-left: 18px;*/
+
+        }
+
+        .vtx-services-TTL {
+            background: #FF2B39;
+            color: snow;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 12px;
+        }
+
+        .vtx-services-txt p{
+            background: #091F37;
+            color: snow;
+            margin: 0;
+            margin-bottom: 5px;
+            padding-top: 8px;
+            height: 40px;
+            padding-left: 0px;
+        }
+
+        /* /SERVIÇOS */
+
+        /* FOOTER */
+        .pt-4 {
+            padding-top: 1.5rem !important;
+            margin-bottom: -35px !important;
+        }
+        .p-3 {
+            padding: 1rem !important;
+            margin: -15px !important;
+            background-color: #091e37;
+            color: #FF2B39;
+        }
+        .p-3 a {
+            color: #FF2B39 !important;
+        }
+        
+
+
+        /* /FOOTER */
     
 }
