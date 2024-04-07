@@ -200,7 +200,7 @@
         }
             
         .vtx-container-pl {
-            background-image: url('../img/Homem-olhando.png');
+            background-image: url('../img/homem_olhando.png');
             background-size: cover;    
             height: 12em;
             display: flex;
@@ -491,7 +491,7 @@ img.vtx-problemas-img {
         }
             
         .vtx-container-pl {
-            background-image: url('../img/Homem-olhando.png');
+            background-image: url('../img/homem_olhando.png');
             background-size: cover;    
             height: 20em;
             display: flex;
@@ -795,7 +795,7 @@ img.vtx-problemas-img {
             }
                 
             .vtx-container-pl {
-                background-image: url('../img/Homem-olhando.png');
+                background-image: url('../img/homem_olhando.png');
                 background-size: cover;    
                 height: 20em;
                 display: flex;
