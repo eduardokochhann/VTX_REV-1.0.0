@@ -7,7 +7,7 @@
 
 /*======Smartphones até 390px (Iphone 12pro)======*/
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 426px){
     
 /* Animações */
 
@@ -211,15 +211,23 @@
             /*padding-left: 11px;*/
         }
 
+        .vtx-btn-pl-int{
+            background-color: #091e37;
+            border-radius: inherit;
+            color: snow;
+            border: 0px;
+        }
+
         .popup {
             display: none;
             position: fixed;
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
+            left: 30%;
+            transform: translate(-22%, -50%);
+            color: #091e37;
+            background-color: snow;
             padding: 20px;
-            border: 2px solid black;
+            border: 2px solid #FF2B39;
             border-radius: 5px;
             z-index: 999;
             max-width: 80%;
@@ -305,7 +313,7 @@
 
 /*======Smartphones acima de 390px e tablets======*/
 
-@media only screen and (min-width: 426px) and (max-width:768px){
+@media only screen and (min-width: 426px) and (max-width:767px){
    
 /* NAV BAR */
         
@@ -502,15 +510,23 @@ img.vtx-problemas-img {
             /*padding-left: 11px;*/
         }
 
+        .vtx-btn-pl-int{
+            background-color: #091e37;
+            border-radius: inherit;
+            color: snow;
+            border: 0px;
+        }
+
         .popup {
             display: none;
             position: fixed;
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
+            left: 30%;
+            transform: translate(-22%, -50%);
+            color: #091e37;
+            background-color: snow;
             padding: 20px;
-            border: 2px solid black;
+            border: 2px solid #FF2B39;
             border-radius: 5px;
             z-index: 999;
             max-width: 80%;
@@ -596,7 +612,7 @@ img.vtx-problemas-img {
 
 /*====== Notebooks e PCs ======*/
 
-@media only screen and (min-width: 767px){
+@media only screen and (min-width: 768px){
    
     /* NAV BAR */
             
@@ -722,8 +738,8 @@ img.vtx-problemas-img {
             }
     
             .vtx-socios-dv1 img {
-                top: -142px;
-                left: 66px;
+                top: -137px;
+                left: 30px;
                 position: absolute;
                 width: 160px;
             }
@@ -736,12 +752,17 @@ img.vtx-problemas-img {
     
             #JK div img {
                 width: 118px;
-                left: 78px;
+                left: 46px;
+                top: -136px;
     
+            }
+
+            #JK div label {
+                margin-left: -103px !important;
             }
             
             #FB label {
-                margin-left: -184px !important;
+                margin-left: -100px !important;
             }
 
             #FB div label small{
@@ -750,12 +771,12 @@ img.vtx-problemas-img {
     
             #EK div img {
                 width: 113px;
-                left: 82px;
-                top: -148px;
+                left: 51px;
+                top: -142px;
             }
             
             #EK div label {
-                margin-left: -179px !important;
+                margin-left: -95px !important;
             }
             #EK div label small{
                 margin-left: -46px;
@@ -805,16 +826,24 @@ img.vtx-problemas-img {
                 width: 100%;
                 /*padding-left: 11px;*/
             }
+
+            .vtx-btn-pl-int{
+                background-color: #091e37;
+                border-radius: inherit;
+                color: snow;
+                border: 0px;
+            }
     
             .popup {
                 display: none;
                 position: fixed;
                 top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: white;
+                left: 30%;
+                transform: translate(-22%, -50%);
+                color: #091e37;
+                background-color: snow;
                 padding: 20px;
-                border: 2px solid black;
+                border: 2px solid #FF2B39;
                 border-radius: 5px;
                 z-index: 999;
                 max-width: 80%;
