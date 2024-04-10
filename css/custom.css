@@ -1,0 +1,215 @@
+
+	/* GERAL */
+
+	@font-face {
+		font-family: 'Vortex Group';
+		src: url('fonts/azo-sans-regular.otf') format('opentype');
+	}
+
+	.revo-slider-emphasis-text {
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-family: 'Poppins', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
+		}
+
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		.tp-video-play-button { display: none !important; }
+
+		.tp-caption { white-space: nowrap; }
+
+	/* LOGO */
+	#logo a {
+		margin: 10px;
+	}
+
+	.dark {
+    	--cnvs-contrast-bg: #091e37 !important;
+	}
+
+	.is-expanded-menu .full-header #logo {
+		border: none !important;
+	}
+	/* NAVbar */
+	#header {
+		--cnvs-primary-menu-hover-color: snow !important;
+    	--cnvs-primary-menu-active-color: snow !important;
+		--cnvs-primary-menu-submenu-top-border: 2px solid #ff2b39 !important;
+    
+	}
+
+	a.menu-link:hover {
+		color: #ffffff !important;		
+	}
+
+	li.menu-item:hover {
+		color: #FFF !important;
+	}
+
+	.is-expanded-menu #header.full-header.transparent-header #header-wrap {
+		border: none !important;
+	}	
+
+	.is-expanded-menu .full-header .primary-menu .menu-container {
+		border: none !important;
+	}
+
+	/* SOLUÇÕES */
+	/* icones */
+	.fbox-border.fbox-effect .fbox-icon i:hover, .fbox-border.fbox-effect:hover .fbox-icon i {
+		color: snow;
+	}
+	.fbox-border .fbox-icon i, .fbox-border .fbox-icon img {
+		color: #091e37;
+	}
+	.fbox-border.fbox-effect .fbox-icon i::after {
+		background-color: #ff2b39;
+	}
+	.fbox-border .fbox-icon a {
+		border: var(--cnvs-featured-box-outline-border) solid #091e37;
+	}
+
+	/* QUEM SOMOS */
+	.quemsomos {
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.quemsomos h1 {
+		color: #091e37;
+	}
+
+	/* SÓCIOS */
+	.card{
+		height: 100% !important;
+	}
+
+	.img-socios {
+		margin-top: -119px;
+	}
+
+	.content-wrap-socios {
+		margin-top: 72px !important;
+		padding-top: 112px !important;
+	}
+
+	#jk {
+		width: 128px;
+	}
+
+	#fb {
+		width: 175px;
+	}
+
+	#ek {
+		width: 120px;
+	}
+
+	.card-header {
+		background-color: #ff2b39;
+		text-align: center;
+		height: 45px;
+		margin-bottom: 5px;
+	}
+
+	.card-body {
+		background-color: #091e37;
+		color: snow;
+	}
+
+	.img-pilares {
+		background-image: url('../images/homem_olhando.png');
+	}
+
+	.nav-pilares {
+		margin-top: -54px !important;
+	}
+
+	.nav-item {
+		margin-right: 15px !important;
+	}
+	.canvas-tabs .nav-link, .canvas-tabs.nav-tabs .nav-link {
+		background-color: #ff2b39 !important;
+		color: snow !important;
+	}
+
+	.canvas-tabs .nav-link.active, .canvas-tabs .nav-tabs .nav-item.show .nav-link, .canvas-tabs.nav-tabs .nav-link.active, .canvas-tabs.nav-tabs .nav-tabs .nav-item.show .nav-link {
+		color: #091e37 !important;
+	}
+
+	.tab-pilares {
+		font-size: 18px !important;
+		margin-left: 60px !important;
+		margin-right: 60px !important;
+		font-weight: 500 !important;
+	}
+
+	/* SERVIÇOS */
+	.title-servicos-vtx {
+		text-align: center; 
+		color: snow; 
+		background-color: #FF2B39;
+		width: 100%;		
+		margin-bottom: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.title-servicos-vtx h1 {
+		margin: 0px;
+		font-size: 20px;
+		color: snow;
+	} 
+		
+	.list-group {
+		--bs-list-group-active-color: snow;
+		--bs-list-group-active-bg: #091e37;
+		--bs-list-group-active-border-color: #091e37; 
+
+		
+	}
+
+	/* FOOTER */
+
+	.dark #copyrights, #copyrights.dark {
+		background-color: #091e37;
+		color: rgb(255 255 255 / 51%);
+	}
+
+	#footer {
+		background-color: #091e37 !important;
+	}
+
+	/* Adicionais */
+	:root {
+		--cnvs-themecolor: #091e37 !important; /*Cor do gotoTop pressionado*/
+	}
+
+	/* MEDIA QUERYS */
+	@media only screen and (max-width: 425px ){
+		
+	}
+
+	@media only screen and (max-width: 575.98px){
+		.tabs {
+			flex-direction: row !important;
+	}
+	
+	}
