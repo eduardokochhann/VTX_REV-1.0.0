@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="pt-br">
+<html style="margin-top: -10px; margin-bottom: 0px;" dir="ltr" lang="pt-br">
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -43,15 +43,18 @@
 						<!-- Logo -->
 						<div id="logo">
 							<a href="index.html">
-								<img class="logo-default img-responsive" srcset="images/vtx1_logo_dark.png, images/vtx1_logo_dark.png 2x" src="images/vtx1_logo_dark.png" alt="Vortex Logo">
-								<img class="logo-dark img-responsive" srcset="images/logo_vortex_horizontal.png, images/logo_vortex_horizontal.png 2x" src="images/logo_vortex_horizontal.png"" alt="Vortex Logo">
+							<img id="logo-img-horizontal" class="logo-dark img-responsive" srcset="images/logo_vortex_horizontal.png, images/logo_vortex_horizontal.png 2x" src="images/logo_vortex_horizontal.png"" alt="Vortex Logo">
 							</a>
 						</div>
+					</div>
+				</div>
+			</div>
+			
 		</header><!-- #header end -->
 
 		<section id="slider" class="slider-element slider-parallax include-header min-vh-100" style="background: url('images/landing/landing1_vtx.jpg') no-repeat; background-size: cover">
 			<div class="slider-inner">
-
+				
 				<div class="vertical-middle slider-element-fade">
 					<div class="container dark text-center">
 
@@ -70,8 +73,8 @@
 				</div>
 
 			</div>
+			
 		</section>
-
 		<!-- Content
 		============================================= -->
     <!-- SESSÃO SOLUÇÕES -->
@@ -87,10 +90,12 @@
 								</div>
 								<div class="fbox-content">
 									<h3>Marketing</h3>
-									<p>Gestão de Mídias Sociais: Criação de conteúdo, gerenciamento de campanhas e análise de engajamento.<br><br>
-									SEO e SEM: Otimização para motores de busca e marketing em motores de busca para melhorar a visibilidade online.<br><br>
-									E-mail Marketing: Desenvolvimento de campanhas de e-mail personalizadas para segmentos de clientes específicos.<br><br>
-									Análise de Dados: Coleta e interpretação de dados para informar estratégias de marketing.</p>
+									<p>Contratando a Vortex Group para soluções de marketing, você terá uma série de 
+										benefícios. Desde a gestão das mídias sociais, passando pela otimização para 
+										motores de busca e e-mail marketing, até a análise de dados, tudo é feito por 
+										especialistas. Isso significa uma presença online mais forte, com conteúdo relevante, 
+										melhor visibilidade nos motores de busca, campanhas de e-mail eficazes e estratégias 
+										de marketing embasadas em dados concretos.</p>
 								</div>
 							</div>
 						</div>
@@ -102,10 +107,12 @@
 								</div>
 								<div class="fbox-content">
 									<h3>Gestão Corporativa</h3>
-									<p>Gestão de Contratos: Revisão e negociação de contratos para assegurar termos favoráveis.<br><br>
-									Análise de Terceirizados: Avaliação de fornecedores e parceiros para garantir qualidade e eficiência.<br><br>
-									Redução de Custos: Identificação de áreas para redução de despesas operacionais.<br><br>
-									Expansão de Negócios: Estratégias para entrar em novos mercados e aumentar a base de clientes.</p>
+									<p>Ao escolher a Vortex Group para gestão corporativa, você terá uma gestão de 
+										contratos precisa, garantindo termos favoráveis e reduzindo riscos. Além disso, 
+										a análise de terceirizados ajuda a manter a qualidade e eficiência dos parceiros 
+										de negócios, enquanto a redução de custos identifica áreas para economias operacionais. 
+										Por fim, as estratégias de expansão de negócios fornecem planos concretos para alcançar
+										 novos mercados e aumentar a base de clientes.</p>
 								</div>
 							</div>
 						</div>
@@ -117,10 +124,12 @@
 								</div>
 								<div class="fbox-content">
 									<h3>Tecnologia e inovação</h3>
-									<p>Desenvolvimento Web: Criação de sites responsivos e otimizados para diferentes dispositivos.<br><br>
-									Aplicativos Móveis: Desenvolvimento de aplicativos para iOS e Android com foco na experiência do usuário.<br><br>
-									Integrações de Sistemas: Conexão de diferentes sistemas empresariais através de APIs personalizadas.<br><br>
-									Inovação em Produtos: Pesquisa e desenvolvimento de novas soluções tecnológicas para atender às necessidades do mercado.</p>
+									<p>Contratando a Vortex Group para tecnologia e inovação, você terá acesso a especialistas
+										 em desenvolvimento web, aplicativos móveis, integrações de sistemas e inovação de produtos. 
+										 Isso significa que sua empresa terá sites e aplicativos de alta qualidade, sistemas
+										  integrados para melhorar a eficiência e produtos inovadores para manter a relevância
+										   no mercado.
+										</p>
 								</div>
 							</div>
 						</div>
@@ -140,8 +149,8 @@
 				<div class="col-md-4"></div>
 			</div>
 			<div class="content-wrap content-wrap-socios">				
-				<div class=" row container">
-					<div class="col-md-4">
+				<div class=" row container row-socios">
+					<div class="col-md-4" id="card-jk">
 						<div class="card">
 							<div class="card-header">
 								<img class="img-socios" id="jk" src="images/busto_juliano.png" alt="Juliano Kochhann CTO">
@@ -152,7 +161,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" id="card-fb">
 						<div class="card">
 							<div class="card-header">
 								<img class="img-socios" id="fb" src="images/busto_fellippe.png" alt="Fellippe Bastos CMO">
@@ -177,23 +186,24 @@
 					</div>									
 				</div>
 			</div>
-			<section id="content">
+			<section class="section-pilares" id="content">
 				<div class="content-wrap" style="padding-top: 0px;">
-					<div class="pilares">
-						<div class="col-lg-12">
-							<img src="/images/homem_olhando.png" alt="">
+						<div class="col-lg-12 pilares">
+							<img src="/images/homem_olhando.png" alt="">	
+						</div>	
+						<div class="ul-pilares">								
+							<ul class="nav-pilares nav canvas-tabs tabs nav-tabs justify-content-center mb-3" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link container-modules-loaded" id="canvas-home-tab" data-bs-toggle="pill" data-bs-target="#tab-center-home2" type="button" role="tab" aria-controls="canvas-home" aria-selected="false" tabindex="-1">Visão</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link container-modules-loaded" id="canvas-profile-tab" data-bs-toggle="pill" data-bs-target="#tab-center-profile2" type="button" role="tab" aria-controls="canvas-profile" aria-selected="false" tabindex="-1">Missão</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link container-modules-loaded active" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#tab-center-contact2" type="button" role="tab" aria-controls="canvas-contact" aria-selected="true">Ética</button>
+								</li>
+							</ul>
 						</div>
-						<ul class="nav-pilares nav canvas-tabs tabs nav-tabs justify-content-center mb-3" role="tablist">
-							<li class="nav-item" role="presentation">
-								<button class="nav-link container-modules-loaded" id="canvas-home-tab" data-bs-toggle="pill" data-bs-target="#tab-center-home2" type="button" role="tab" aria-controls="canvas-home" aria-selected="false" tabindex="-1">Visão</button>
-							</li>
-							<li class="nav-item" role="presentation">
-								<button class="nav-link container-modules-loaded" id="canvas-profile-tab" data-bs-toggle="pill" data-bs-target="#tab-center-profile2" type="button" role="tab" aria-controls="canvas-profile" aria-selected="false" tabindex="-1">Missão</button>
-							</li>
-							<li class="nav-item" role="presentation">
-								<button class="nav-link container-modules-loaded active" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#tab-center-contact2" type="button" role="tab" aria-controls="canvas-contact" aria-selected="true">Ética</button>
-							</li>
-						</ul>
 						<div class="tab-pilares tab-content">
 							<div class="tab-pane fade" id="tab-center-home2" role="tabpanel" aria-labelledby="canvas-home-tab" tabindex="0">
 								<p>Nossa visão é proporcionar oportunidades de crescimento para todos os nossos clientes na era digital. 
@@ -205,20 +215,26 @@
 									seus objetivos, oferecendo soluções digitais acessíveis e eficazes.</p>
 							</div>
 							<div class="tab-pane fade active show" id="tab-center-contact2" role="tabpanel" aria-labelledby="canvas-contact-tab" tabindex="0">
-								<p>Na Vortex Group, valorizamos a transparência, o respeito e a responsabilidade. Nosso compromisso com a ética
+								<p>Na Vortex Group, valorizamos a transparência, o respeito e a responsabilidade. <br>Nosso compromisso com a ética
 									 empresarial nos guia em todas as nossas ações e decisões.</p>
 							</div>
 						</div>
 					</div>
+					
+				</div>
+				
+			</section>
+			
+				<!--<div class="content-wrap">
 					<div class="gdpr-container gdpr-content-blocked" data-cookie-name="youtube" data-cookies="true" data-cookie-content="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SZEflIVnhH8&quot; allowfullscreen></iframe>">
 						<div class="gdpr-blocked-message bg-dark">
 							<i class="fa-brands fa-youtube h1 text-light mb-3"></i>
 							<p class="text-light mb-2">VÍDEOS VORTEX GROUP.</p>
-						</div>
+						</div>					
 					</div>
-				</div>
-			</section>
-		</section>	
+				</div>-->
+		
+			
 				<!-- Marketing -->	
 				<div class="container">
 					<div class="container title-servicos-vtx ">
