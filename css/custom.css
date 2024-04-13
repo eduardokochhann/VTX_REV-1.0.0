@@ -1,11 +1,16 @@
 
 	/* GERAL */
+	
+	html {
+		margin-top: 0px; 
+		margin-bottom: 0px;
+	}
 
 	@font-face {
 		font-family: 'Vortex Group';
 		src: url('fonts/azo-sans-regular.otf') format('opentype');
 	}
-
+	
 	.revo-slider-emphasis-text {
 			font-size: 64px;
 			font-weight: 700;
@@ -37,7 +42,7 @@
 
 	/* LOGO */
 	#logo a {
-		margin: 10px;
+		margin: 20px;
 	}
 
 	.dark {
@@ -47,6 +52,7 @@
 	.is-expanded-menu .full-header #logo {
 		border: none !important;
 	}
+
 	/* NAVbar */
 	#header {
 		--cnvs-primary-menu-hover-color: snow !important;
@@ -70,6 +76,14 @@
 	.is-expanded-menu .full-header .primary-menu .menu-container {
 		border: none !important;
 	}
+
+	.button {
+		--cnvs-btn-color-light: #091e37 !important;
+	}
+	/* HOME */
+	.vertical-middle {
+		margin-top: 50px;	
+}
 
 	/* SOLUÇÕES */
 	/* icones */
@@ -134,12 +148,25 @@
 		color: snow;
 	}
 
-	.img-pilares {
-		background-image: url('../images/homem_olhando.png');
+	.section-pilares {
+		width: 117%;
+		margin-left: -112px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.pilares {
+		height: 200px;
+	}
+
+	.ul-pilares {
+		margin-top: -157px;
+		padding-top: 200px;
+		margin-bottom: -160px;
 	}
 
 	.nav-pilares {
-		margin-top: -54px !important;
+		margin-top: 80px !important;
 	}
 
 	.nav-item {
@@ -156,12 +183,27 @@
 
 	.tab-pilares {
 		font-size: 18px !important;
-		margin-left: 60px !important;
-		margin-right: 60px !important;
-		font-weight: 500 !important;
+    	font-weight: 500 !important;
+		color: snow;
+		background: #091e37;
+		width: 100%;
+		height: 80px;
+		padding-top: 11px;
+		padding-bottom: 11px;
+		text-align: center;		
 	}
 
 	/* SERVIÇOS */
+
+	img.alignright, div.alignright {
+		width: 40%;
+		margin: -65px 0px 0px 2px !important;
+	}
+
+	img.alignleft, div.alignleft {
+		width: 40%;
+	}
+
 	.title-servicos-vtx {
 		text-align: center; 
 		color: snow; 
@@ -203,13 +245,113 @@
 	}
 
 	/* MEDIA QUERYS */
-	@media only screen and (max-width: 425px ){
-		
+	@media only screen and (max-width: 767px){
+		.vertical-middle {
+			margin-top: 0px;
+		}
+		.slider-inner{
+			margin-top: -100px !important;
+		}
+		#slider {
+			margin-top: -121px !important;
+		}
+
+		#header-wrap #logo img {
+			height: 60px;
+		}
+
+		img.alignright {
+			margin-top: -52px !important;
+		}
+
+		.menu-servicos {
+			margin-top: 10px !important;
+		}
+
+
 	}
 
-	@media only screen and (max-width: 575.98px){
+	@media only screen and (max-width: 575.98px){ 
+		
 		.tabs {
 			flex-direction: row !important;
 	}
-	
+		.section-pilares {
+			width: 106%;
+			margin-left: -12px;
+			padding-left: 0px;
+			padding-right: 0px;
+			margin-top: -40px;
 	}
+
+	.tab-pilares {
+		font-size: 10px !important;
+		font-weight: 200 !important;
+		padding-top: 15px;
+		padding-right: 2px;
+	}
+
+	.nav-item {
+		margin-top: -28px;
+	}
+	
+}
+
+	@media only screen and (max-width: 764px){
+		.row-socios {
+			margin-left: 0px;
+		}
+
+		.content-wrap-socios {
+			margin-top: 25px !important;
+		}
+
+
+		#card-jk {
+			margin-bottom: 130px;
+		}
+
+		#card-fb {
+			margin-bottom: 130px;
+		}
+
+		.vertical-middle {
+			margin-top: 128px;	
+	}
+}
+
+	@media only screen and (min-width: 768px) and (max-width: 991px){
+		.section-pilares {
+			width: 111%;
+			margin-left: -36px;
+		}
+		
+		.tab-pane h3{
+			font-size: 19px !important;
+		}
+
+		img.alignright, div.alignright {
+			width: 40%;
+			margin: -50px 0px 0px 7px !important;
+		}
+
+		.content-wrap-socios {
+			margin-left: 18px;
+		}
+		.tab-pilares {
+			font-size: 13px !important;
+			padding: 11px !important;
+		}
+
+		.vertical-middle {
+			margin-top: -85px;	
+	}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+	html{
+		margin-top: -10px;
+		margin-bottom: -10px;
+	}
+}
