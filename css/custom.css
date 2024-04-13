@@ -81,9 +81,9 @@
 		--cnvs-btn-color-light: #091e37 !important;
 	}
 	/* HOME */
-	.vertical-middle {
-		margin-top: 50px;	
-}
+	/*.vertical-middle {
+		margin-top: -118px;
+} */
 
 	/* SOLUÇÕES */
 	/* icones */
@@ -183,7 +183,7 @@
 
 	.tab-pilares {
 		font-size: 18px !important;
-    	font-weight: 500 !important;
+    	font-weight: 300 !important;
 		color: snow;
 		background: #091e37;
 		width: 100%;
@@ -353,5 +353,34 @@
 	html{
 		margin-top: -10px;
 		margin-bottom: -10px;
+	}
+}
+
+@media only screen and (min-width: 995px) and (max-width: 1024px){
+
+	.vertical-middle {
+		margin-top: 50px !important;	
+	}
+
+	.content-wrap-socios {
+		margin-left: 1px;
+		margin-right: -28px;
+	}	
+
+	.section-pilares{
+		width: 107%;
+		margin-left: -30px;
+	}
+
+	.tab-pilares {
+		padding: 14px;
+		font-size: 14px !important;
+		font-weight: 300 !important;
+	}	
+}
+
+@media only screen and (min-width: 1536px){
+	.vertical-middle {
+		margin-top: 50px !important;	
 	}
 }
